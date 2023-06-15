@@ -135,7 +135,7 @@ class EthiopianRecipe extends Recipe{
 // An instance of both classes
 const z=new Recipe("Flour", "2hrs", "Fry", "Adds vitamin C")
 z.foodname()
-const a= new EthiopianRecipe(super("Angera", "Ethiopia"))
+const a= new EthiopianRecipe("Angera", "Ethiopia")
 a.createRecipe()
 
 
@@ -232,6 +232,6 @@ call.detemineSpecie()
 const call2=new Predator(super("South"))
 call2.determinePreyDirection()
 call2.preyValue()
-const call3=new Prey(super("Cat", "Dry"))
+const call3=new Prey("Cat", "Dry")
 call3.migratePattern()
 call3.determinePrey()
