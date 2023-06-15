@@ -229,7 +229,7 @@ class Prey extends Species{
 // Instance of the classes
 const call=new Species("Cheetah","Flesh","Brown","Jump","Bite" )
 call.detemineSpecie()
-const call2=new Predator(super("South"))
+const call2=new Predator(("South"))
 call2.determinePreyDirection()
 call2.preyValue()
 const call3=new Prey("Cat", "Dry")
