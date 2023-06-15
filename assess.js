@@ -149,7 +149,7 @@ a.createRecipe()
 // these classes might relate to each other through inheritance.
 
 class Species{
-    constructor(name,type,colour,ability){
+    constructor(name,diet,colour,ability){
         this.name=name
         this.diet=diet
         this.colour=colour
@@ -171,7 +171,7 @@ class Species{
 class Predator extends Species{
     constructor(name){
         this.name=name
-        t
+        
     }
     super(predatorDirection){
         this.predatorDirection=predatorDirection
@@ -227,4 +227,11 @@ class Prey extends Species{
 }
 
 // Instance of the classes
-const call=new Species
+const call=new Species("Cheetah","Flesh","Brown","Jump","Bite" )
+call.detemineSpecie()
+const call2=new Predator(super("South"))
+call2.determinePreyDirection()
+call2.preyValue()
+const call3=new Prey(super("Cat", "Dry"))
+call3.migratePattern()
+call3.determinePrey()
